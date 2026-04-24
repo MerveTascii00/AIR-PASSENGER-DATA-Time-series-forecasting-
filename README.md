@@ -162,6 +162,21 @@ The analysis demonstrates that:
 
 ---
 
+## Final Model Performance
+
+The evaluation results clearly demonstrate the impact of different modeling approaches:
+
+- SES performs the worst due to its inability to capture trend and seasonality.
+- Holt improves performance by modeling trend but still fails to capture seasonal patterns.
+- Holt-Winters significantly outperforms both models by capturing level, trend, and seasonality.
+
+The error reduction is substantial:
+
+- ~65% improvement over SES
+- ~60% improvement over Holt
+
+This confirms that incorporating seasonality is critical for accurate forecasting in this dataset.
+
 ## 👩‍💻 Author
 
 Merve Taşçı
